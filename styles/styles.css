@@ -13,3 +13,137 @@
     background-color: black; 
     color: white;
 }
+/* nav style */
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  
+}
+
+.fitness{
+  color:#E6533C;
+  font-weight: 800;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.nav-items{
+  display: flex;
+  color: white;
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 20px;
+}
+
+#nav-home{
+  background-color: #E6533C;
+  border-radius: 30px;
+  
+}
+
+.nav-item{
+  padding: 5px 20px;
+
+}
+
+.nev-hamber {
+  width: 30px;
+  display: none;
+}
+
+/* full header style */
+
+.header-container{
+  max-width: 1440px;
+  height: 600px;
+  background-image: linear-gradient(rgb(15, 14, 14), rgb(37, 35, 35), rgb(8, 8, 8));
+  margin: 0 auto;
+}
+
+.nev-hamber {
+  width: 30px;
+  display: none;
+}
+
+.header-box{
+  display: flex;
+  margin: 0 100px;
+  color: white;
+}
+
+.header-img{
+  max-height: 500px;
+}
+
+.header-text-section{
+ flex: 1;
+}
+.header-img-section{
+ flex: 1;
+}
+
+.header-text-title{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header-description{
+  color: #949292;
+}
+
+.join-club-btn{
+  background-color: #E6533C;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.download-app-btn{
+  background-color: #0c0b0b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-left: 5px;
+}
+
+.header-img{
+  margin-left: 140px;
+  position: relative;
+}
+
+.image-dot{
+  position: absolute;
+  max-width: 116px;
+  padding: 10px 28px;
+  border-radius: 10px;
+  margin-left: 330px;
+  margin-top: 120px;
+  z-index: 1;
+  backdrop-filter: blur(10px);    
+  border: 1px solid rgb(105, 103, 103);
+}
+
+.image-dot-two{
+  display: flex;
+  position: absolute;
+  max-width: 116px;
+  padding: 10px 22px;
+  border-radius: 10px;
+  z-index: 1;
+  backdrop-filter: blur(10px);    
+  border: 1px solid rgb(105, 103, 103);
+  margin-top: -150px;
+  margin-left: 80px;
+}
+
+.red-dot{
+  background-color: #E6533C;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: auto;
+  margin-right: 10px;
+}
