@@ -1,0 +1,16 @@
+@media screen and (max-width:992px){
+    .nav-container{
+        padding: 10px;
+    }
+    .nev-hamber {
+        width: 30px;
+        display: none;
+    }
+    .header-box{
+        flex-direction: column;
+    }
+    
+   
+
+
+}
